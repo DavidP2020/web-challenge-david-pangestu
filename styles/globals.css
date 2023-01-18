@@ -25,4 +25,16 @@ body {
     px-1.5 py-0.5 rounded-md
     text-xs text-white;
   }
+
+  .button-primary {
+    @apply bg-blue-600/80 hover:bg-blue-600/90
+      px-6 py-2 rounded-md
+      text-white font-medium
+      tracking-wider transition;
+  }
+
+  .button-icon {
+    @apply flex-grow flex justify-center items-center
+    transition rounded-md;
+  }
 }
